@@ -74,3 +74,22 @@ main{
 .social_icon{
     background-color: #5e615f;
 }
+
+/* content pages */
+.content-box{
+    margin-top: 0;
+}
+.page-title{
+    font-size: 5vw;
+    text-shadow: 2px 2px rgb(127, 85, 85);
+    font-family: 'Fira Sans', sans-serif;
+}
+.page-content{
+    margin-top: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.content_img{
+    height: 30vw;
+    width: auto;
+}

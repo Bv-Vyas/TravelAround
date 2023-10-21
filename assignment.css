@@ -16,9 +16,9 @@ body{
 }
  
 .carousel-inner {
-    max-height: 700px;
+    max-height: 800px;
     img {
-      max-height: 700px;
+      max-height: 800px;
    }
 }
 
@@ -56,11 +56,12 @@ main{
 }
 
 .card-title{
+    font-weight: 900;
     font-family: 'Fira Sans', sans-serif;
 }
 
 .card-text{
-    font-weight: 500;
+
     font-family: 'Fira Sans', sans-serif;
 }
 

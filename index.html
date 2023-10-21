@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel-Around</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn4.vectorstock.com/i/1000x1000/41/88/travel-icon-in-colorful-vector-8144188.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assignment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar or header of the page -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid bg-dark">
+              <a class="navbar-brand" href="#"><img class="logo" src="../photos/travel_logo.png" alt=""></a>
+              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="domain nav-link active text-warning" aria-current="page" href="#">TravelAround</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">BlogPost</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Top Places
+                    </a>
+                    <ul class="dropdown-menu bg-dark">
+                      <li><a class="dropdown-item text-info" href="#">Taj Mahal</a></li>
+                      <li><a class="dropdown-item text-info" href="#">Red Fort</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item text-info" href="#">More..</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#" >About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#" >Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+<!-- carousal or slider images -->
+<div class="row">
+    <div class="col-md-12">       
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&q=80&w=2952&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Taj Mahal">
+                <div class="carousel-caption d-flex flex-column justify-content-center h-100" style="top: 0">
+                    <p class="carousel_text" >Taj Mahal - The Gem Of India</p>
+                </div>
+              </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1599840309126-7ece88628ded?auto=format&fit=crop&q=80&w=2980&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Taj Mahal">
+              <div class="carousel-caption d-flex flex-column justify-content-center h-100" style="top: 0">
+                <h4 class="carousel_text" >Golden Temple Amritsar</h4>
+              </div>
+              </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1563210818-eb9afc85d6d5?auto=format&fit=crop&q=80&w=2819&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Red Fort">
+                <div class="carousel-caption d-flex flex-column justify-content-center h-100" style="top: 0">
+                    <p class="carousel_text" >Chittor Fort Glory Of Rajasthan</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://plus.unsplash.com/premium_photo-1697730385162-fa617cfd46d8?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Red Fort">
+                <div class="carousel-caption d-flex flex-column justify-content-center h-100" style="top: 0">
+                    <p class="carousel_text" >Kumbhalgarh Fort - Birth Place Of Rana</p>
+                </div> 
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1617516202907-ff75846e6667?auto=format&fit=crop&q=80&w=2829&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Red Fort">
+                <div class="carousel-caption d-flex flex-column justify-content-center h-100" style="top: 0">
+                    <p class="carousel_text" >Hawa Mahal Jaipur</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+</div>
+
+<!-- Content section  -->
+<main>
+    <h2 id="section_heading">Historical Places</h2>
+    <div class="container col">
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <img class="card_img" src="https://plus.unsplash.com/premium_photo-1661962425238-aeb9b022a94b?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Taj Mahal</h5>
+                  <p class="card-text">
+                    Taj Mahal - UNESCO World Heritage Centre
+                    It was built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal .</p>
+                  <a href="#" class="btn btn-primary">Know More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <img class="card_img" src="https://plus.unsplash.com/premium_photo-1661919589683-f11880119fb7?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Red Fort</h5>
+                  <p class="card-text">The Red Fort is considered to represent the zenith of Mughal creativity which, under the Shah Jahan, was brought to a new level of refinement.</p>
+                  <a href="#" class="btn btn-primary">Know More</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    <div class="container col">
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                <img class="card_img" src="https://media.istockphoto.com/id/1160975059/photo/qutub-minar-and-its-monuments-delhi.jpg?s=1024x1024&w=is&k=20&c=BhuKUL1LK5tdBzLU9j3D_p5YbDmDgnZN6j1XY9WZcx4=" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Qutub Minar</h5>
+                    <p class="card-text">The Qutub Minar is a five-storeyed red sandstone tower built by Muslim conquerors in the thirteenth century to commemorate their final triumph.</p>
+                    <a href="#" class="btn btn-primary">Know More</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                <img class="card_img" src="https://plus.unsplash.com/premium_photo-1697730300605-8f099d0f36e9?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Fatehpur Sikri</h5>
+                    <p class="card-text">Fatehpur Sikri (the City of Victory) was the capital of the Mughal Empire for only some 10 years. The complex of monuments and temples, all in a uniform...</p>
+                    <a href="#" class="btn btn-primary">Know More</a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="container col">
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                <img class="card_img" src="https://images.unsplash.com/photo-1617516202907-ff75846e6667?auto=format&fit=crop&q=80&w=2829&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Hawa Mahal</h5>
+                    <p class="card-text">The Hawa Mahal is dedicated to Lord Krishna. It is said that the shape of the building resembles the crown of Krishna. More than a palace.</p>
+                    <a href="#" class="btn btn-primary">Know More</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                <img class="card_img" src="https://images.unsplash.com/photo-1585744945554-5df801d2b680?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sanchi Stupa</h5>
+                    <p class="card-text">The Great Stupa at Sanchi is one of the oldest stone structures in India, and an important monument of Indian Architecture.</p>
+                    <a href="#" class="btn btn-primary">Know More</a>
+                </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="container col">
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+                <img class="card_img" src="https://images.unsplash.com/photo-1609947017136-9daf32a5eb16?auto=format&fit=crop&q=80&w=2952&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Golden Temple</h5>
+                <p class="card-text">The foundation for the gurudwara was laid in 1581 and the construction was completed in 1588. In 1604, a copy of the Adi Granth...</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-6">
+            <div class="card">
+                <img class="card_img" src="https://guidetour.in/wp-content/uploads/2018/09/Gateway-of-India-in-Mumbai.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Gateway of India</h5>
+                <p class="card-text">The monument was erected to commemorate the landing of King George V and Queen Mary at Apollo Bunder on their visit to India in 1911.</p>
+                <a href="#" class="btn btn-primary">know More</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="container col">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <img class="card_img" src="https://images.unsplash.com/photo-1590812855152-7d2bc336a5e8?auto=format&fit=crop&q=80&w=2908&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Sun Temple</h5>
+                    <p class="card-text">The Sun Temple is an exceptional testimony, in physical form, to the 13th-century Hindu Kingdom of Orissa, under the reign of Narasimha Deva.</p>
+                    <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-sm-6">
+                <div class="card">
+                    <img class="card_img" src="https://static.toiimg.com/photo/100053003.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Kumbhalgarh Fort</h5>
+                    <p class="card-text">BIRTHPLACE OF MEWAR'S LEGENDARY KING, MAHARANA PRATAP.
+                        Cradled in the Aravali Ranges the fort was built in the 15th century AD.</p>
+                    <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        <div class="container col">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <img class="card_img" src="https://gumlet.assettype.com/outlooktraveller/import/outlooktraveller/public/uploads/articles/explore/Jaisalmer-city.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Jaisalmer Fort</h5>
+                    <p class="card-text">Legend has it that the fort was built by Rawal Jaisal, a Bhati Rajput, in 1156 CE. The story says that it superseded an earlier construction at Lodhruva.</p>
+                    <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-sm-6">
+                <div class="card">
+                    <img class="card_img" src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2021/02/27110850/Chittorgarh.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">The Chittorgarh Fort</h5>
+                    <p class="card-text">The Chittorgarh Fort also popularly known as Water Fort and is home to 22 water bodies, palaces, towers and temples spread over 700 acres.</p>
+                    <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+</main>
+    
+    <!-- Footer -->
+    <footer class="text-center text-lg-start" style="background-color: #212529;">
+      <div class="container d-flex justify-content-center py-5">
+        <button type="button" class="social_icon btn btn-primary btn-lg btn-floating mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </button>
+        <button type="button" class="social_icon btn btn-primary btn-lg btn-floating mx-2">
+          <i class="fab fa-youtube"></i>
+        </button>
+        <button type="button" class="social_icon btn btn-primary btn-lg btn-floating mx-2">
+          <i class="fab fa-instagram"></i>
+        </button>
+        <button type="button" class="social_icon btn btn-primary btn-lg btn-floating mx-2">
+          <i class="fab fa-twitter"></i>
+        </button>
+      </div>
+  
+      <!-- Copyright -->
+      <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-white" href="#">travelAround.com</a>
+        <br>
+        Designed and Created By Bhawesh Vyas
+      </div>
+      <!-- Copyright -->
+    </footer>
+    
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

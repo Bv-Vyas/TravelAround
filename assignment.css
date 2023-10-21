@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #f2eeeeba;
+}
+
+.logo{
+    height: 50px;
+}
+.domain{
+    font-weight: 900;
+    font-family: 'Fira Sans', sans-serif;
+}
+ 
+.carousel-inner {
+    max-height: 700px;
+    img {
+      max-height: 700px;
+   }
+}
+
+.carousel-item .carousel_text {
+    position: absolute;
+    margin: 0;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel_text{
+    font-size: 5vw;
+    font-weight: 800;
+    color: #3a3737;
+    font-family: 'Fira Sans', sans-serif;
+}
+  
+ .carousel-indicators img {
+   max-width: 100px;
+}
+
+main{
+  margin-top: 100px;
+}
+
+.container{
+    margin-top: 60px;
+}
+
+.card_img{
+    height: 400px;
+   
+}
+
+.card-title{
+    font-size: 2vw;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.card-text{
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#section_heading{
+    font-size: 4vw;
+    text-align: center;
+    text-shadow: 2px 1.5px #3a3737;
+}
+
+/* Footer */
+.social_icon{
+    background-color: #5e615f;
+}

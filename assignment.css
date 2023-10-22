@@ -93,3 +93,12 @@ main{
     height: 30vw;
     width: auto;
 }
+
+/* comment box */
+.coment{
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}

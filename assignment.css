@@ -161,3 +161,7 @@ a{
     text-decoration: none;
 }
 
+/* contact page */
+.contact-box{
+    border: 2px solid black;
+}

@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #f2eeeeba;
+}
+
+.logo{
+    height: 50px;
+}
+.domain{
+    font-weight: 900;
+    font-family: 'Fira Sans', sans-serif;
+}
+ 
+.carousel-inner {
+    max-height: 800px;
+    img {
+      max-height: 800px;
+   }
+}
+
+.carousel-item .carousel_text {
+    position: absolute;
+    margin: 0;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel_text{
+    font-size: 5vw;
+    font-weight: 800;
+    color: #3a3737;
+    font-family: 'Fira Sans', sans-serif;
+}
+  
+ .carousel-indicators img {
+   max-width: 100%;
+}
+
+/* typed text */
+.typed-content-box{  
+    height: 60vh;
+}
+
+.type-text{
+    margin-top: 5vw;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+@media (max-width: 767px) {
+    h1 {
+      font-size: 48px; /* Adjust font size for h1 on mobile devices */
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+      font-size: 55px; /* Adjust font size for h1 on tablet devices */
+    }
+}
+
+
+.type-content{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* type - button */
+.type-btn{
+    padding: 10px;
+    margin: 10px;
+    font-weight: 600;
+    color: #fff;
+    background-color:#FFC107;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.type-btn:hover{
+    background-color: rgba(255, 217, 0, 0.89);
+    color: black;
+}
+
+
+/* main Content */
+main{
+  margin-top: 100px;
+  
+}
+
+.container{
+    margin-top: 60px;
+}
+
+.card_img{
+    height: 400px;
+   
+}
+
+.card-title{
+    font-weight: 900;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.card-text{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#section_heading{
+    text-align: center;
+    text-shadow: 2px 1.5px #3a3737;
+}
+
+/* Footer */
+.social_icon{
+    background-color: #5e615f;
+}
+
+/* content pages */
+.content-box{
+    margin-top: 0;
+}
+.page-title{
+    font-size: 5vw;
+    text-shadow: 2px 2px rgb(127, 85, 85);
+    font-family: 'Fira Sans', sans-serif;
+}
+.page-content{
+    margin-top: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.content_img{
+    height: 40vw;
+    
+}
+
+/* comment box */
+.coment{
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
